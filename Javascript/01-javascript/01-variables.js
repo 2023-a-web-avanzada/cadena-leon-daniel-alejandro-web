@@ -129,3 +129,37 @@ console.log(Object.keys(player))
 console.log(Object.values(player))
 
 delete player.username
+
+// Variables por valor o por referencia
+// Variables por valor
+// Primiivas: numer string boolean
+
+let edadDaniel = 25
+let edadAlejandro = edadDaniel
+console.log(edadDaniel) // 25
+console.log(edadAlejandro) // 25
+
+edadDaniel = edadDaniel + 1
+console.log(edadDaniel) // 26
+console.log(edadAlejandro) // 25
+
+// Variables por referencia
+// Object: {} []
+let notas = {
+    total: 10
+}
+
+ let notasSegundoBimestre = notas // igualación referencia
+ notasSegundoBimestre.total = notasSegundoBimestre.total + 1
+ console.log(notas) // 11
+ console.log(notasSegundoBimestre) // 11
+
+ // Cómo clonar objetos
+ let notasTercerBimestre = Object.assign(target = {}, notas)
+
+ // Object.assign([], arreglo)
+
+ notasTercerBimestre.total = notasTercerBimestre.total + 1
+ console.log(notas) // 11
+ console.log(notasSegundoBimestre) // 11
+ console.log(notasTercerBimestre) // 1
