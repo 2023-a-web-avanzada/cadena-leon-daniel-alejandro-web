@@ -26,3 +26,5 @@ arreglo.unshift(4)
 arreglo.splice(0, 0, 1, 2, 3)
 console.log(arreglo)
 const indiceNueve = arreglo.indexOf(9)
+
+
