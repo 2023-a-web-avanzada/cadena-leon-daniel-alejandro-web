@@ -1,0 +1,39 @@
+[
+  {
+    "nombre": "Conjunto Oliveira",
+    "ubicacion": "Av. Mariscal Sucre y Moro Moro",
+    "fundacion": "1980-04-30",
+    "enUso": true,
+    "departamentos": []
+  },
+  {
+    "nombre": "Conjunto San Francisco",
+    "ubicacion": "Av. Jipipaja y Nogales",
+    "fundacion": "2000-04-29",
+    "enUso": false,
+    "departamentos": [
+      {
+        "numero": 1,
+        "area": "500",
+        "amueblado": false,
+        "precio": 9000,
+        "fechaEstreno": "2021-04-04"
+      }
+    ]
+  },
+  {
+    "nombre": "Conjunto Chispitas",
+    "ubicacion": "Av. Mariscal Sucre y San Juan",
+    "fundacion": "2000-04-03",
+    "enUso": true,
+    "departamentos": [
+      {
+        "numero": 1,
+        "area": "500",
+        "amueblado": false,
+        "precio": 9000,
+        "fechaEstreno": "2020-05-06"
+      }
+    ]
+  }
+]
