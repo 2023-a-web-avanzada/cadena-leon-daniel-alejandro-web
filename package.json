@@ -4,6 +4,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.0",
     "@mui/material": "^5.14.0",
-    "konsta": "^2.0.0"
+    "konsta": "^2.0.0",
+    "react-hook-form": "^7.45.1"
   }
 }
